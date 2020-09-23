@@ -13,7 +13,7 @@ struct Room{
     int row;
     float length;
     float breadth;
-    float height;
+  
 };
 
 
