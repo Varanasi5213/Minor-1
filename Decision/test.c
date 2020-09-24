@@ -1,4 +1,4 @@
-#include "Cov.h"
+#include "PercentageCovered.h"
 #include <stdio.h>
 #define m 9 // no. rooms in the room
 #define n 9 // no. columns in the room
@@ -10,14 +10,16 @@ void main()
     fan.radius = 3;
     fan.status = 0;
     fan.power  = 0;
-    float **b=Coverage(fan,m,n);// reading the coverage matrix from function
-    for(int i=0;i<m;i++)// displaying the matrix
-     {
-         for(int j=0;j<n;j++)
-        {
-             printf("%.0f",(b[i][j]));
-             printf("  ");
-        }
-         printf("\n");
+    fan.Den = 0;
+    float **den; // creating 2d array dynamically for density matrix
+    den = malloc(sizeof(float*) * m);
+
+    for(int i = 0; i < m; i++) {
+        den[i] = malloc(sizeof(float*) * n);
     }
+    for(int i=0; i<m; i++) // assigning values to den matrix
+        for (int j=0; j<n; j++)
+            den[i][j]=0.5;
+    per(den,&(fan),m,n);
+    printf("\n%f",fan.Den);
 }
