@@ -6,6 +6,6 @@ The area with one's is the area covered by that device.
 ```
 
 ### Percentage covereage
-`` 
+```
 This is a helper function.This function takes Fan structure and Density matrix as input and calculates the fraction of area coverd by that Fan.
-`` 
+``` 
