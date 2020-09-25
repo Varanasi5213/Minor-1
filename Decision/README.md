@@ -19,6 +19,5 @@ device.
 ```
  
 ### Decision Making Algorithm
-```
+
 ![Screenshot](flow.png)
-```
