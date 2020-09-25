@@ -1,7 +1,15 @@
-#include "struct.h"
+struct Fan // Structure to store the device specifications
+{
+    int status;
+    int radius;
+    int pos[2];
+    float power;
+    float Den;
+};
+
 float** Coverage(struct Fan *F,int m, int n) // This function is for finding the coverage of one fan in the room
 {
-    float **cov; // creating 2d array dynamically
+    float** cov; // creating 2d array dynamically
     cov = malloc(sizeof(float*) * m);
 
     for(int i = 0; i < m; i++) {
