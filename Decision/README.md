@@ -14,8 +14,7 @@ calculates the fraction of area coverd by that device.
 ### New Density
 ```
 This function makes thakes the current Density and then makes the values of area covered by the device 0. 
-This calls Coverage function for getting the coverage matrix of the 
-device.
+This calls Coverage function for getting the coverage matrix of the device.
 ```
  
 ### Decision Making Algorithm
