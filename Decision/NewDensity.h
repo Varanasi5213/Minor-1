@@ -1,7 +1,7 @@
 #include "Cov.h" // importing to get the coverage matrix
 
 // Calculates the new density by removing the area covered by the passes fan
-float** NewDensity(float ** Density, struct Fan* F, int m , int n)
+float** NewDensity(float ** Density, struct Device* F, int m , int n)
 {
 
     float **NewDen;
@@ -23,8 +23,8 @@ float** NewDensity(float ** Density, struct Fan* F, int m , int n)
 }
 
 
-// Calculates the fraction of population density covered by the passed Fan
-void Percent(float ** Density, struct Fan *F,int m, int n)
+// Calculates the fraction of population density covered by the passed Device
+void Percent(float ** Density, struct Device *F,int m, int n)
 {
     float **cov = Coverage(F,m,n);
     float sum = 0, tot=0;
@@ -36,5 +36,5 @@ void Percent(float ** Density, struct Fan *F,int m, int n)
             tot = tot + Density[i][j];
 
         }
-    F->Den= sum/tot;
+    F->Den= (sum/tot);
 }
