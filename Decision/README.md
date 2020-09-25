@@ -10,4 +10,5 @@ The area with one's is the area covered by that device.
 This is a helper function.This function takes Fan structure and Density matrix as input and 
 calculates the fraction of area coverd by that Fan.
 ``` 
-![alt text](http://url/to/img.png)
+### Decision Making Algorithm
+![Screenshot](flow.png)
