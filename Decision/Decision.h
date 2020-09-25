@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "NewDensity.h"
+#include "NewDensity.h" // This has some helper files
 
 float sum(struct Device F[],int n)// calculates the total sum covered by the array of Devices
 {
