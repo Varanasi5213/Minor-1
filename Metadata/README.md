@@ -38,6 +38,7 @@
 
 <b>Step 14:</b>  Stop <br><br>
 
+<b>Data-Flow Diagram: </b> <br><br>
 ![alt text](Dataflowdiag.jpg) <br><br>
-
+<b>Flowchart: </b> <br><br>
 ![alt text](Flowchart.jpg)
