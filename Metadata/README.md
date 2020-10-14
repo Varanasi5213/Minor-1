@@ -1,4 +1,5 @@
-## Metadata to matrix form
+# Metadata to matrix form
+## Algorithm:
 <b>Step 1:</b> Start<br>
 
 <b>Step 2:</b> Create a header file.<br>
@@ -38,7 +39,8 @@
 
 <b>Step 14:</b>  Stop <br><br>
 
-<b>Data-Flow Diagram: </b> <br><br>
+## Data-Flow Diagram:  <br>
 ![alt text](Dataflowdiag.jpg) <br><br>
-<b>Flowchart: </b> <br><br>
+
+## Flowchart: <br>
 ![alt text](Flowchart.jpg)
