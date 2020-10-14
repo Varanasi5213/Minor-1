@@ -20,5 +20,6 @@
 
 <b>•</b>	End<br><br>
 ### Data flow diagram (DFD):
+![](DFD.jpeg)
 
 
