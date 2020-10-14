@@ -6,7 +6,7 @@
 <b>•</b>	Perform a subtraction operation between the corresponding values of the Input files.<br>
 <b>•</b>	Store the result of the subtraction in a 2D array (with the same diensions as that of the room) named difference_matrix[] .<br>
 <b>•</b>	End.<br><br>
-
+### Data flow diagram (DFD):<br>
 ![](InputModule.png)
 
 
