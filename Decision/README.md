@@ -19,4 +19,4 @@ This calls Coverage function for getting the coverage matrix of the device.
  
 ### Decision Making Algorithm
 
-![Screenshot](flow.png)
+![Screenshot] (flow.png)
