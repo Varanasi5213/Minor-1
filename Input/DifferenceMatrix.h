@@ -2,9 +2,10 @@
 #include<stdlib.h>
 
 
-int main()
+int** diff_rssi(int row,int column)
 {
-    int **difference_matrix,row=5,column=5,i,j,p1,p2;
+    int i,j,p1,p2;
+    int **difference_matrix;
     difference_matrix=(int**)malloc(sizeof(int*)*row);
     for(i=0;i<row;i++)
     {
@@ -52,11 +53,11 @@ int main()
            printf("%d ",difference_matrix[i][j]);
 
          }
-         printf("\n");
+        printf("\n");
 
     }
 
       fclose(fp1);
       fclose(fp2);
-      return 0;
+      return difference_matrix;
 }
