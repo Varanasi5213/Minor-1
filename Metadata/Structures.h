@@ -30,7 +30,7 @@ void values(struct Device* D1,struct Device* D2)
 
     fscanf(f,"%d,%d,%d,%d",&R.row,&R.column,&R.numberoffans,&R.numberoflights);  /* Inserting the values of room in structure Room.*/
 
-    for(i=0; i<R.numberoffans; i++) ; /*  Loop is created for inserting values of fans in structure Device*/
+    for(i=0; i<R.numberoffans; i++)  /*  Loop is created for inserting values of fans in structure Device*/
     {
         fscanf(f,"%d,%d,%d,%f",&D1[i].pos[0],&D1[i].pos[1],&D1[i].radius,&D1[i].power);
 
