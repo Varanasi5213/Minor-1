@@ -26,11 +26,11 @@ void array(struct Device* D)
 
 void dis(struct Device *D)
 {
-    printf("%f\n",D->Den);
-    printf("%f\n",D->power);
-    printf("%d\n",D->pos[0]);
-    printf("%d\n",D->pos[1]);
-    printf("%d\n",D->radius);
-    printf("%d\n",D->status);
+    printf("Density: %.1f\n",D->Den);
+    printf("Power: %.1f\n",D->power);
+    printf("Position X-axis: %d\n",D->pos[0]);
+    printf("Position Y-axis: %d\n",D->pos[1]);
+    printf("Radius: %d\n",D->radius);
+    printf("Status: %d\n",D->status);
 }
 

@@ -1,4 +1,4 @@
-#include "help.h"
+#include "Structures.h"
 
 float** Coverage(struct Device *F,int m, int n) // This function is for finding the coverage of one Device in the room
 {
